@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="QR.css">
+</head>
+<body>
+    <div  id="reset">
+        
+    <div class="container">
+        <div id="themebtn">
+            <button><img src="moon.png" width="30px"  id="icon"></button>
+            
+             </div>
+       
+        <p>Enter Your Text Or URL</p>
+        <input type="text" placeholder="Enter Your Text Or URL" id="qrText">
+
+        <div id="imgBox">
+            <img src="" id="qrImage">
+        </div>
+
+        <button onclick="generateQR()" class="btn">Generate QR Code</button>
+        <button id="resetBtn" class="btn">Reset</button>
+
+    </div>
+</div>
+    <script src="QR.js"></script>
+</body>
+
+</html>
